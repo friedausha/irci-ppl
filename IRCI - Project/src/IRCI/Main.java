@@ -1,6 +1,5 @@
 package IRCI;
 
-import edu.uci.ics.jung.samples.PluggableRendererDemo;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -11,7 +10,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("Menu.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("MainPage.fxml"));
         primaryStage.setTitle("IRCI");
         primaryStage.setScene(new Scene(root, 600, 600));
         primaryStage.show();

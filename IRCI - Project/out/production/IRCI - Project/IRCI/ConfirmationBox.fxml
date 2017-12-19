@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="232.0" prefWidth="588.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="IRCI.ConfirmationBoxController">
+   <children>
+      <VBox prefHeight="139.0" prefWidth="600.0">
+         <children>
+            <TextArea prefHeight="79.0" prefWidth="600.0" text="Insert Metadata failed.">
+               <font>
+                  <Font name="Century" size="26.0" />
+               </font>
+            </TextArea>
+         </children>
+      </VBox>
+      <VBox layoutY="116.0" prefHeight="46.0" prefWidth="600.0">
+         <children>
+            <HBox prefHeight="25.0" prefWidth="527.0">
+               <children>
+                  <Button fx:id="CancelInsertionButton" contentDisplay="CENTER" mnemonicParsing="false" onAction="#cancelInsertion" prefHeight="25.0" prefWidth="99.0" text="Cancel Insertion" />
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="ReenterMetadataButton" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="25.0" prefWidth="98.0" text="Reenter Metadata" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
